@@ -2,7 +2,7 @@ node {
     def appDir = '/var/www/nextjs-app'
     def ec2User = 'ubuntu'
     def ec2Host = '3.107.99.15'
-    def pemFile = 'D:/DevOpsyoutubeTheTechzeen/workingdirectory/111_day_jenkinscicdpipeline/jenkey.pem'
+    def pemFile = '/var/lib/jenkins/jenkey.pem'
 
     stage('Clean Workspace'){
         echo 'Cleaning Jenkins Workspace'
